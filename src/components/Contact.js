@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [name, setMessage] = useState('');
+  const [message, setMessage] = useState('');
 
   function encode(data) {
     return Object.keys(data).map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&');

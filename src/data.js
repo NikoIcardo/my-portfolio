@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "SpeedyFingers.net",
+    subtitle: "Vanilla Javascript and Bootstrap CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A typing website to help people type faster and also track their progress as they improve!",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://speedyfingers.net",
   },
   {
     title: "React Tracks",
@@ -53,8 +53,8 @@ export const testimonials = [
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Node.js",
+  "Express",
+  "MongoDb",
+  "Bootstrap",
 ];

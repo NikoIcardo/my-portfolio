@@ -54,7 +54,7 @@ export const skills = [
   "JavaScript",
   "React",
   "Node.js",
-  "Express",
   "MongoDb",
   "Bootstrap",
+  "Tailwind"
 ];

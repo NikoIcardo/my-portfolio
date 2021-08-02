@@ -24,12 +24,12 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
-    title: "React Concept",
+    title: "React Principles",
     subtitle: "React & Tailwind",
     description:
-      "A website to demonstrate some essential React concepts.",
+      "A website to demonstrate some essential React principles.",
     image: "./project-r.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://stupefied-thompson-2921ec.netlify.app",
   },
 ];
 

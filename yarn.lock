@@ -6374,6 +6374,11 @@
   "resolved" "https://registry.npmjs.org/p-try/-/p-try-1.0.0.tgz"
   "version" "1.0.0"
 
+"p5@^1.4.0":
+  "integrity" "sha512-U888W2ChcIzPhRhnv4FkNhaa4f5BDIWZfLhzvx9ZrQ5KtkZr/+o1UPIicV3yWTRy0HEG23NviHyDR3kgjaJ9wA=="
+  "resolved" "https://registry.npmjs.org/p5/-/p5-1.4.0.tgz"
+  "version" "1.4.0"
+
 "package-json@^4.0.0":
   "integrity" "sha1-iGmgQBJTZhxMTKPabCEh7VVfXu0="
   "resolved" "https://registry.npmjs.org/package-json/-/package-json-4.0.1.tgz"

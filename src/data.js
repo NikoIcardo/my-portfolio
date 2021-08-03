@@ -16,12 +16,12 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "JsAgario",
+    subtitle: "p5.Js",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "A recreation of agario in p5.js. ",
+    image: "./project-a.gif",
+    link: "./jsAgar.html",
   },
   {
     title: "React Principles",

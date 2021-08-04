@@ -36,6 +36,7 @@ const Contact = () => {
         <form 
           data-netlify="true"
           name="contact"
+          method="POST"
           className="lg:w-full md:w-full flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <div className="relative mb-4">

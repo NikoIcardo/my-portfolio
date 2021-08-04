@@ -10,12 +10,12 @@ const Contact = () => {
     return Object.keys(data).map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&');
   }
 
-  function handleSubmit(e) {
+  const handleSubmit = (e) => {
     e.preventDefault(); 
-    fetch('/', {
-      method: 'POST', 
-      headers: {'Content-Type': 'application/x-www-form-urlencoded' }, 
-      body: encode({'form-name': 'contact', name, email, message}),
+    fetch("/", {
+      method: "POST", 
+      headers: {"Content-Type": "application/x-www-form-urlencoded"}, 
+      body: encode({"form-name": "contact", name, email, message}),
     })
     .then(() => alert('Message Sent!'))
     .catch((error) => alert(error))
@@ -40,6 +40,8 @@ const Contact = () => {
           className="lg:w-full md:w-full flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <div className="relative mb-4">
+            <input type="hidden" name="form-name" value="contact"/>
+            
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>

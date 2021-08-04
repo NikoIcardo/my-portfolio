@@ -14,7 +14,7 @@ const Projects = () => {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             The following are various web projects that I have developed over the last year. 
-            Each project is hosted and accessible!
+            Each project is hosted and accessible! A more extensive portfolio is available via <a href="https://www.github.com/nikoicardo">Github.com/nikoicardo</a>. 
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

@@ -51,7 +51,7 @@ const Contact = () => {
           </div>
           <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-              Email
+              Your Email
             </label>
             <input
               type="email"

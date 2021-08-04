@@ -13,9 +13,8 @@ const Projects = () => {
             Applications I have Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            The following are various web projects that I have developed over the last year. 
+            Each project is hosted and accessible!
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

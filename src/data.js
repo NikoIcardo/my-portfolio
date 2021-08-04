@@ -8,18 +8,18 @@ export const projects = [
     link: "https://speedyfingers.net",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Sight Seeing",
+    subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
+      "The front end of a MERN stack social media project I am currently working on for a class.",
+    image: "./project-sightseeing.gif",
     link: "https://reactbootcamp.com",
   },
   {
     title: "JsAgario",
     subtitle: "p5.Js",
     description:
-      "A recreation of agario in p5.js. ",
+      "An npc based recreation of the popular game agar.io in p5.js. Go ahead and try it out!",
     image: "./project-a.gif",
     link: "./jsAgar.html",
   },
@@ -27,7 +27,7 @@ export const projects = [
     title: "React Principles",
     subtitle: "React & Tailwind",
     description:
-      "A website to demonstrate some essential React principles.",
+      "A website I created to demonstrate some essential React principles built as a 6 hour challenge.",
     image: "./project-r.gif",
     link: "https://stupefied-thompson-2921ec.netlify.app",
   },
@@ -53,11 +53,12 @@ export const testimonials = [
 export const skills = [
   "JavaScript",
   "React",
-  "Node.js",
-  "REST APIs",
-  "MongoDb",
+  //"Node.js",
+  //"REST APIs",
+  //"MongoDb",
   "Bootstrap CSS",
   "Tailwind CSS", 
+  "HTML5 and CSS", 
   "p5.js", 
   
 ];

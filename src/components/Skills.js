@@ -13,7 +13,7 @@ const Skills = () => {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            I have been programming for the last 9 years. The following languages and technologies comprise the scope and range of my web skills. 
+            The following languages and technologies comprise the scope and range of my web skills. 
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

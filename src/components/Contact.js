@@ -14,7 +14,7 @@ const Contact = () => {
     e.preventDefault(); 
     fetch('/', {
       method: 'POST', 
-      headers: {'Content-Type': 'application/x-www-form-urlenconded' }, 
+      headers: {'Content-Type': 'application/x-www-form-urlencoded' }, 
       body: encode({'form-name': 'contact', name, email, message}),
     })
     .then(() => alert('Message Sent!'))

@@ -34,7 +34,7 @@ const Contact = () => {
       </div>
       <div className=" text-left mx-24">
         <form 
-          netlify
+          data-netlify="true"
           name="contact"
           className="lg:w-full md:w-full flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >

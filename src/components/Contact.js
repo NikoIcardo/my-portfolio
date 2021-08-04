@@ -18,7 +18,7 @@ const Contact = () => {
       body: encode({'form-name': 'contact', name, email, message}),
     })
     .then(() => alert('Message Sent!'))
-    .catch((error) => alert(error));
+    .catch((error) => alert(error))
   }
 
   return (

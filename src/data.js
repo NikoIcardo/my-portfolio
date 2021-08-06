@@ -13,7 +13,7 @@ export const projects = [
     description:
       "The front end of a MERN stack social media project I am currently working on for a class.",
     image: "./project-sightseeing.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://admiring-austin-7c036d.netlify.app",
   },
   {
     title: "JsAgario",

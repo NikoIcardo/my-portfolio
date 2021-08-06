@@ -3,7 +3,7 @@ export const projects = [
     title: "SpeedyFingers.net",
     subtitle: "Vanilla Javascript and Bootstrap CSS",
     description:
-      "A typing website to help people type faster and also track their progress as they improve!",
+      "A typing website to help people type faster and also track their progress using local storage as they improve!",
     image: "./project-1.gif",
     link: "https://speedyfingers.net",
   },
@@ -11,7 +11,7 @@ export const projects = [
     title: "Sight Seeing",
     subtitle: "React",
     description:
-      "The front end of a MERN stack social media project I am currently working on for a class.",
+      "The front end of a MERN stack social media project I am currently working. The REST API and backend are in development.",
     image: "./project-sightseeing.gif",
     link: "https://admiring-austin-7c036d.netlify.app",
   },
@@ -19,7 +19,7 @@ export const projects = [
     title: "JsAgario",
     subtitle: "p5.Js",
     description:
-      "An npc based recreation of the popular game agar.io in p5.js. Go ahead and try it out!",
+      "An npc based recreation of the popular game agar.io in p5.js. Go ahead and try it out! You can use your mouse to move.",
     image: "./project-a.gif",
     link: "./jsAgar.html",
   },
@@ -27,7 +27,7 @@ export const projects = [
     title: "React Principles",
     subtitle: "React & Tailwind",
     description:
-      "A website I created to demonstrate some essential React principles built as a 6 hour challenge.",
+      "A website I created to demonstrate some essential React principles. I built this as a 6 hour challenge in which I also taught myself how to use Tailwind CSS.",
     image: "./project-r.gif",
     link: "https://stupefied-thompson-2921ec.netlify.app",
   },

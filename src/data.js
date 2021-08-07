@@ -27,12 +27,12 @@ export const projects = [
     title: "React Principles",
     subtitle: "React & Tailwind",
     description:
-      "A website I created to demonstrate some essential React principles. I built this as a 6 hour challenge in which I also taught myself how to use Tailwind CSS.",
+      "A site I created to demonstrate some essential React principles. I built this as a 6 hour challenge in which I also taught myself Tailwind CSS.",
     image: "./project-r.gif",
     link: "https://stupefied-thompson-2921ec.netlify.app",
   },
 ];
-
+// A space dedicated to testimonials if I have them in the future. 
 export const testimonials = [
   {
     quote:

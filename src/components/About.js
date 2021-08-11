@@ -30,7 +30,7 @@ const About = () => {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./me.jpg"
+            src="./me.png"
           />
         </div>
       </div>

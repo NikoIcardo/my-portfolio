@@ -11,7 +11,7 @@ export const projects = [
     title: "Sight Seeing",
     subtitle: "React",
     description:
-      "The React Front End of a MERN Stack social media project currently in development. To login use: Test@email.com and password.",
+      "Please see my Github Sight Seeing Repository. No login presently available as I am currently connecting the backend.",
     image: "./project-sightseeing.gif",
     link: "https://admiring-austin-7c036d.netlify.app",
   },

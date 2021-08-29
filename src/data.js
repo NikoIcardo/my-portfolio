@@ -9,9 +9,9 @@ export const projects = [
   },
   {
     title: "Sight Seeing",
-    subtitle: "React",
+    subtitle: "MERN STACK",
     description:
-      "Please see my Github Sight Seeing Repository. No login presently available as I am currently connecting the backend.",
+      "A MERN Stack social media project. Upload photos, share them with other users, and go Sight Seeing.",
     image: "./project-sightseeing.gif",
     link: "https://admiring-austin-7c036d.netlify.app",
   },

@@ -14,7 +14,7 @@ const Projects = () => {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             The following are various web projects that I have developed over the last year. 
-            Each project is hosted and accessible! A more extensive portfolio is available via <a className="text-green-500 hover:text-white" href="https://www.github.com/nikoicardo">Github.com/nikoicardo</a>. 
+            Each project is hosted and accessible! A more extensive portfolio is available via <a className="text-green-500 hover:text-white" href="https://www.github.com/nikoicardo" target="_blank">Github.com/nikoicardo</a>. 
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -23,6 +23,7 @@ const Projects = () => {
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4"
+              target="_blank"
             >
               <div className="flex relative">
                   <img

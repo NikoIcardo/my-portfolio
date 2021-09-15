@@ -17,7 +17,7 @@ const Navbar = () => {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="https://www.github.com/nikoicardo" className="mr-5 hover:text-white">
+          <a href="https://www.github.com/nikoicardo" className="mr-5 hover:text-white" target="_blank">
             Github
           </a>
         </nav>

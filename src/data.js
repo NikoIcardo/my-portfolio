@@ -11,7 +11,7 @@ export const projects = [
     title: "Sight Seeing",
     subtitle: "MERN STACK",
     description:
-      "A MERN Stack social media project. Upload photos, share them with other users, and go Sight Seeing.",
+      "A MERN Stack social media project. Unfortunately Heroku hosting only holds photos for 30 min before deleting.  ",
     image: "./project-sightseeing.gif",
     link: "https://admiring-austin-7c036d.netlify.app",
   },

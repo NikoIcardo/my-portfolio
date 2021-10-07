@@ -1,5 +1,5 @@
 //Niko Icardo 7/31/21
-import React from "react";
+import React from 'react';
 
 const About = () => {
   return (
@@ -9,7 +9,8 @@ const About = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-white">
             Hello! My Name's Niko.
             <br className="hidden lg:inline-block" />
-            I'm a web developer with a passion for coding.
+            <br className="hidden lg:inline-block" />I build things for the web
+            and love to code
           </h1>
           <div className="flex justify-center">
             <a

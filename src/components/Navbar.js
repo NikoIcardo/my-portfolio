@@ -1,10 +1,10 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
-import React from 'react'; 
+import { ArrowRightIcon } from '@heroicons/react/solid';
+import React from 'react';
 
 const Navbar = () => {
-  return(
-    <header className="bg-gray-800 md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+  return (
+    <header className=" md:sticky top-0 z-10">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center maroonBackground">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
             Niko Icardo
@@ -17,19 +17,24 @@ const Navbar = () => {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="https://www.github.com/nikoicardo" className="mr-5 hover:text-white" target="_blank">
+          <a
+            href="https://www.github.com/nikoicardo"
+            className="mr-5 hover:text-white"
+            target="_blank"
+          >
             Github
           </a>
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:text-white rounded text-base mt-4 md:mt-0"
+        >
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
       </div>
     </header>
   );
-}; 
+};
 
-export default Navbar; 
+export default Navbar;

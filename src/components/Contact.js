@@ -1,5 +1,5 @@
 //Niko Icardo 7/31/2021
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -7,42 +7,49 @@ const Contact = () => {
   const [message, setMessage] = useState('');
 
   function encode(data) {
-    return Object.keys(data).map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&');
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
+      )
+      .join('&');
   }
 
   const handleSubmit = (e) => {
-    e.preventDefault(); 
-    fetch("/", {
-      method: "POST", 
-      headers: {"Content-Type": "application/x-www-form-urlencoded"}, 
-      body: encode({"form-name": "contact", name, email, message}),
+    e.preventDefault();
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contact', name, email, message }),
     })
-    .then(() => alert('Message Sent!'))
-    .catch((error) => alert(error))
-  }
+      .then(() => alert('Message Sent!'))
+      .catch((error) => alert(error));
+  };
 
   return (
-    <section id="contact" className=" w-full flex flex-col
-     justify-startv">
+    <section
+      id="contact"
+      className=" w-full flex flex-col
+     justify-startv mt-3"
+    >
       <div>
-      <h2 className="text-center text-white sm:text-4xl text-3xl mb-4 font-medium title-font">
-            Contact Me
-      </h2>
-      <p className="text-center leading-relaxed mb-5">
-        Feel free to reach out to me by filling out the contact form below!
-      </p>
+        <h2 className="text-center text-white sm:text-4xl text-3xl mb-4 font-medium title-font">
+          Contact Me
+        </h2>
+        <p className="text-center text-white mb-5">
+          Feel free to reach out to me by filling out the contact form below!
+        </p>
       </div>
       <div className=" text-left mx-24">
-        <form 
+        <form
           netlify
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-full md:w-full flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <div className="relative mb-4">
-            <input type="hidden" name="form-name" value="contact"/>
-            
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <input type="hidden" name="form-name" value="contact" />
+
+            <label htmlFor="name" className="leading-7 text-sm text-white">
               Name
             </label>
             <input
@@ -54,7 +61,7 @@ const Contact = () => {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-sm text-white">
               Your Email
             </label>
             <input
@@ -66,9 +73,7 @@ const Contact = () => {
             />
           </div>
           <div className="relative mb-4">
-            <label
-              htmlFor="message"
-              className="leading-7 text-sm text-gray-400">
+            <label htmlFor="message" className="leading-7 text-sm text-white">
               Message
             </label>
             <textarea
@@ -80,13 +85,14 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+            className="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+          >
             Submit
           </button>
         </form>
       </div>
     </section>
   );
-}; 
+};
 
-export default Contact; 
+export default Contact;

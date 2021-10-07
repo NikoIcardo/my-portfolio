@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: Raleway;
+}
+
+.coralBackground {
+  background-color: rgba(201, 76, 76, 0.3);
+}
+
+.maroonBackground {
+  background-color: #53343d;
+}
+
+.navyBackground {
+  background-color: #373453;
+}

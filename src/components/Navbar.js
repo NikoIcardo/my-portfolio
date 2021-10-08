@@ -3,10 +3,10 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <header className=" md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center maroonBackground">
+    <header className="md:sticky top-0 z-10">
+      <nav className="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center maroonBackground">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
+          <a href="#about" className="ml-3 text-xl ">
             Niko Icardo
           </a>
         </a>
@@ -19,7 +19,7 @@ const Navbar = () => {
           </a>
           <a
             href="https://www.github.com/nikoicardo"
-            className="mr-5 hover:text-white"
+            className="mr-5 hover:text-white "
             target="_blank"
           >
             Github
@@ -32,7 +32,7 @@ const Navbar = () => {
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
-      </div>
+      </nav>
     </header>
   );
 };

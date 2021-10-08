@@ -9,8 +9,7 @@ const About = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-white">
             Hello! My Name's Niko.
             <br className="hidden lg:inline-block" />
-            <br className="hidden lg:inline-block" />I build things for the web
-            and love to code
+            I'm a web developer with a passion for coding.
           </h1>
           <div className="flex justify-center">
             <a

@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Raleway;
-}
-
 .coralBackground {
   background-color: rgba(201, 76, 76, 0.3);
 }
@@ -16,4 +12,8 @@ body {
 
 .navyBackground {
   background-color: #373453;
+}
+
+body {
+  font-family: 'Pontano Sans', sans-serif;
 }

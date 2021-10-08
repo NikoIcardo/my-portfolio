@@ -45,7 +45,7 @@ export const projects = [
     description:
       'An npc based recreation of the popular game agar.io in p5.js. Go ahead and try it out! You can use your mouse to move.',
     image: './projects/project-a.gif',
-    link: './projects/jsAgar.html',
+    link: './jsAgar.html',
   },
   {
     title: 'React Principles',

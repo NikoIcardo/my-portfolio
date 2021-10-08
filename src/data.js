@@ -39,14 +39,14 @@ export const projects = [
     image: './projects/project-sightseeing.gif',
     link: 'https://admiring-austin-7c036d.netlify.app',
   },
-  // {
-  //   title: 'JsAgario',
-  //   subtitle: 'p5.Js',
-  //   description:
-  //     'An npc based recreation of the popular game agar.io in p5.js. Go ahead and try it out! You can use your mouse to move.',
-  //   image: './projects/project-a.gif',
-  //   link: './jsAgar.html',
-  // },
+  {
+    title: 'JsAgario',
+    subtitle: 'p5.Js',
+    description:
+      'An npc based recreation of the popular game agar.io in p5.js. Go ahead and try it out! You can use your mouse to move.',
+    image: './projects/project-a.gif',
+    link: './jsAgar.html',
+  },
   {
     title: 'React Principles',
     subtitle: 'React & Tailwind',

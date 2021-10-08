@@ -5,7 +5,7 @@ import { skills } from '../data';
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="container px-5 py-10 mx-auto coralBackground">
+      <div className="container-fluid px-5 py-10 mx-auto coralBackground">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4 hover:text-white" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">

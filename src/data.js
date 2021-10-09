@@ -21,7 +21,7 @@ export const projects = [
     description:
       'A site to show off the capabilities of the three.js web graphics library! Check it out!',
     image: './projects/ContactKeeper.gif',
-    link: 'https://silly-villani-dcd0b8.netlify.app/',
+    link: 'https://hidden-headland-19257.herokuapp.com/',
   },
   {
     title: 'Github Finder',

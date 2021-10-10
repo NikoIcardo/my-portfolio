@@ -3,7 +3,7 @@ export const projects = [
     title: 'SpeedyFingers.net',
     subtitle: 'Vanilla Javascript and Bootstrap CSS',
     description:
-      'A typing website to help people type faster and also track their progress using local storage as they improve!',
+      'A typing website to help people type faster and also track their progress using local storage as they improve! How fast can you type?',
     image: './projects/project-1.gif',
     link: 'https://speedyfingers.net',
   },
@@ -16,10 +16,18 @@ export const projects = [
     link: 'https://silly-villani-dcd0b8.netlify.app/',
   },
   {
+    title: 'BugTrack',
+    subtitle: 'MERN Stack and Materialize CSS',
+    description:
+      "A Bug Tracking tool. Enter Bugs, Edit Bugs, Delete when necessary! Feel free to add a technician and a bug log if you'd like!",
+    image: './projects/BugTrack.gif',
+    link: 'https://bug-track1.herokuapp.com/',
+  },
+  {
     title: 'Contact Keeper',
     subtitle: 'MERN Stack',
     description:
-      'A site to show off the capabilities of the three.js web graphics library! Check it out!',
+      'A site to keep contacts! Add an account to register, or use "test@test.com", and "tester" as the password. Then feel free to add contacts!',
     image: './projects/ContactKeeper.gif',
     link: 'https://hidden-headland-19257.herokuapp.com/',
   },
@@ -27,7 +35,7 @@ export const projects = [
     title: 'Github Finder',
     subtitle: 'React and Github API',
     description:
-      'A site that uses the Github API to search for profiles and display their info. See if you can find yours!',
+      'A site that uses the Github API to search for profiles and display their info and their repositories. See if you can find your account!',
     image: './projects/Github.gif',
     link: 'https://flamboyant-ardinghelli-e6926e.netlify.app/',
   },
@@ -35,7 +43,7 @@ export const projects = [
     title: 'Sight Seeing',
     subtitle: 'MERN Stack',
     description:
-      'A MERN Stack social media project. Unfortunately Heroku hosting only holds photos for 30 min before deleting, so try uploading a photo!',
+      'A social media project. Unfortunately Heroku hosting only holds photos for 30 min before deleting, so try uploading a photo! User: test@test.com, Password: tester',
     image: './projects/project-sightseeing.gif',
     link: 'https://admiring-austin-7c036d.netlify.app',
   },

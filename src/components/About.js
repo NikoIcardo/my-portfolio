@@ -13,10 +13,11 @@ const About = () => {
           </h1>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="./Niko-Icardo-Resume.pdf"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              target="_blank"
             >
-              Contact Me!
+              Resume
             </a>
             <a
               href="#projects"

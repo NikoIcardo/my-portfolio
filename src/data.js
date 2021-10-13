@@ -83,14 +83,17 @@ export const testimonials = [
 ];
 
 export const skills = [
-  'JavaScript',
-  'React',
-  'Node.js',
-  'REST APIs',
+  'React:  Redux/Thunk - Axios',
+  'Node.js:  Express - Mongoose',
   'MongoDB',
-  'Bootstrap CSS',
-  'Tailwind CSS',
-  'HTML5 and CSS',
-  'p5.js',
-  'three.js',
+  "API's",
+  'Bootstrap',
+  'Javascript ES6',
+  'HTML5',
+  'CSS3',
+  'OOP',
+  'Python',
+  'REST',
+  'Git',
+  'VSCode'
 ];
